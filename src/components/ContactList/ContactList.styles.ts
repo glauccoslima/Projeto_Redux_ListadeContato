@@ -58,8 +58,9 @@ export const AddContactButton = styled.button`
   }
 `
 export const StyledRiAddCircleLineIcon = styled(RiAddCircleLine)`
-  border-radius: 4px;
-  font-size: 11px; // Este é o tamanho do ícone
+  font-size: 10px; // Este é o tamanho do ícone
+  display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
+  align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
 `
 
 // Botão para salvar a edição ou adição de um contato.

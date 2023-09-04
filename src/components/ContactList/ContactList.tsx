@@ -5,7 +5,6 @@ import {
   addContact,
   updateContact
 } from '../../redux/slices/contactsSlice'
-
 import * as Styled from './ContactList.styles'
 
 {
