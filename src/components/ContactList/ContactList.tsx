@@ -5,6 +5,7 @@ import {
   addContact,
   updateContact
 } from '../../redux/slices/contactsSlice'
+
 import * as Styled from './ContactList.styles'
 
 {
@@ -191,7 +192,7 @@ const ContactList: React.FC = () => {
         <Styled.AddContactButton
           onClick={() => setShowAddContactForm(!showAddContactForm)}
         >
-          Adicionar Contato
+          <Styled.StyledRiAddCircleLineIcon /> Adicionar Contato
         </Styled.AddContactButton>
       </Styled.ListHeader>
       {/* Formulário de contato */}

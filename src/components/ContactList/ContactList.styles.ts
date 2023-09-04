@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { RiAddCircleLine } from 'react-icons/ri'
 
 // Título principal, geralmente usado para seções ou títulos de página.
 export const Title = styled.h2`
@@ -55,6 +56,10 @@ export const AddContactButton = styled.button`
   &:hover {
     background-color: #1976d2;
   }
+`
+export const StyledRiAddCircleLineIcon = styled(RiAddCircleLine)`
+  border-radius: 4px;
+  font-size: 11px; // Este é o tamanho do ícone
 `
 
 // Botão para salvar a edição ou adição de um contato.
