@@ -221,8 +221,9 @@ const ContactList: React.FC = () => {
             onChange={handleInputChange}
             maxLength={16}
             required
-            pattern="[0-9()-\s]+"
+            pattern="^[0-9() -]+$"
           />
+
           <Styled.SaveButton type="submit">Salvar</Styled.SaveButton>
         </Styled.FormContainer>
       )}
