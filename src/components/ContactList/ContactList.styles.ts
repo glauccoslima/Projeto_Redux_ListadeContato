@@ -79,14 +79,14 @@ export const StyledFiSearchIcon = styled(FiSearch)`
   align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
 `
 export const StyledRiDeleteBin7LineIcon = styled(RiDeleteBin7Line)`
-  font-size: 12px; // Este é o tamanho do ícone
+  font-size: 11px; // Este é o tamanho do ícone
   display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
   align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
   justify-content: center; // Isso centraliza horizontalmente
   margin-right: 2px; // Mova o ícone um pouco para a esquerda
 `
 export const StyledRiEdit2LineIcon = styled(RiEdit2Line)`
-  font-size: 12px; // Este é o tamanho do ícone
+  font-size: 11px; // Este é o tamanho do ícone
   display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
   align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
   justify-content: center; // Isso centraliza horizontalmente
