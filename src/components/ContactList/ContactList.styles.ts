@@ -20,6 +20,8 @@ const ButtonStyles = `
   cursor: pointer;
   margin-right: 10px;
   transition: background-color 0.3s;
+  font-size: 14px; // Increase the size of the text
+  line-height: 14px;
 `
 
 // Container principal para a lista de contatos. Estilizado para ter sombra, bordas arredondadas, etc.
