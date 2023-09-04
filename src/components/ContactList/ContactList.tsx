@@ -214,13 +214,14 @@ const ContactList: React.FC = () => {
             onChange={handleInputChange}
           />
           <Styled.InputField
-            type="text"
+            type="tel"
             name="phone"
             placeholder="Telefone"
             value={newContact.phone}
             onChange={handleInputChange}
             maxLength={16}
             required
+            pattern="[0-9()-\s]+"
           />
           <Styled.SaveButton type="submit">Salvar</Styled.SaveButton>
         </Styled.FormContainer>
