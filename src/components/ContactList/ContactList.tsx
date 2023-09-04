@@ -237,7 +237,9 @@ const ContactList: React.FC = () => {
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
         />
-        <Styled.SearchButton>Pesquisar</Styled.SearchButton>
+        <Styled.SearchButton>
+          <Styled.StyledFiSearchIcon /> Pesquisar
+        </Styled.SearchButton>
       </Styled.SearchContainer>
       <Styled.ContactItemsContainer>
         {filteredContacts.length === 0 ? (
