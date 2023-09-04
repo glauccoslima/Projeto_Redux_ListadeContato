@@ -20,7 +20,7 @@ const ButtonStyles = `
   cursor: pointer;
   margin-right: 10px;
   transition: background-color 0.3s;
-  font-size: 14px; // Increase the size of the text
+  font-size: 14px;
   line-height: 14px;
 `
 
@@ -64,7 +64,7 @@ export const AddContactButton = styled.button`
   }
 `
 export const StyledRiAddCircleLineIcon = styled(RiAddCircleLine)`
-  font-size: 10px; // Este é o tamanho do ícone
+  font-size: 11px; // Este é o tamanho do ícone
   display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
   align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
 `
