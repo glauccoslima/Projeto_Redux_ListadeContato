@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { RiAddCircleLine } from 'react-icons/ri'
+import { BsSave } from 'react-icons/bs'
 
 // Título principal, geralmente usado para seções ou títulos de página.
 export const Title = styled.h2`
@@ -58,6 +59,12 @@ export const AddContactButton = styled.button`
   }
 `
 export const StyledRiAddCircleLineIcon = styled(RiAddCircleLine)`
+  font-size: 10px; // Este é o tamanho do ícone
+  display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
+  align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
+`
+
+export const StyledBsSaveIcon = styled(BsSave)`
   font-size: 10px; // Este é o tamanho do ícone
   display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
   align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto

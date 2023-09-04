@@ -223,8 +223,9 @@ const ContactList: React.FC = () => {
             required
             pattern="^[0-9\(\) \-]+$"
           />
-
-          <Styled.SaveButton type="submit">Salvar</Styled.SaveButton>
+          <Styled.SaveButton type="submit">
+            <Styled.StyledBsSaveIcon /> Salvar
+          </Styled.SaveButton>
         </Styled.FormContainer>
       )}
       {/* Mensagem de erro, se houver */}
