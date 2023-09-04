@@ -255,9 +255,12 @@ const ContactList: React.FC = () => {
               <Styled.RemoveButton
                 onClick={() => dispatch(removeContact(contact.id))}
               >
+                <Styled.StyledRiDeleteBin7LineIcon />
                 Remover
               </Styled.RemoveButton>
+
               <Styled.EditButton onClick={() => handleEditStart(contact)}>
+                <Styled.StyledRiEdit2LineIcon />
                 Editar
               </Styled.EditButton>
               <Styled.CancelEditButton onClick={handleCancelEdit}>

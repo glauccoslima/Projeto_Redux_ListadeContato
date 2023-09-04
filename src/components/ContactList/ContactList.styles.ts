@@ -2,6 +2,8 @@ import styled from 'styled-components'
 import { RiAddCircleLine } from 'react-icons/ri'
 import { BsSave } from 'react-icons/bs'
 import { FiSearch } from 'react-icons/fi'
+import { RiDeleteBin7Line } from 'react-icons/ri'
+import { RiEdit2Line } from 'react-icons/ri'
 
 // Título principal, geralmente usado para seções ou títulos de página.
 export const Title = styled.h2`
@@ -75,6 +77,20 @@ export const StyledFiSearchIcon = styled(FiSearch)`
   font-size: 10px; // Este é o tamanho do ícone
   display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
   align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
+`
+export const StyledRiDeleteBin7LineIcon = styled(RiDeleteBin7Line)`
+  font-size: 12px; // Este é o tamanho do ícone
+  display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
+  align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
+  justify-content: center; // Isso centraliza horizontalmente
+  margin-right: 2px; // Mova o ícone um pouco para a esquerda
+`
+export const StyledRiEdit2LineIcon = styled(RiEdit2Line)`
+  font-size: 12px; // Este é o tamanho do ícone
+  display: inline-flex; // Isso faz com que o ícone se comporte como um elemento inline
+  align-items: center; // Isso centraliza verticalmente o ícone em relação ao texto
+  justify-content: center; // Isso centraliza horizontalmente
+  margin-right: 2px; // Mova o ícone um pouco para a esquerda
 `
 
 // Botão para salvar a edição ou adição de um contato.
